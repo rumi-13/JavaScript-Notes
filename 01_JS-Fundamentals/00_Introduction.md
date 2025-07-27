@@ -16,7 +16,7 @@ Each file in this folder focuses on a specific foundational concept:
 7. **07_Functions_I.md** – Function basics: declarations, expressions, and scope.
 8. **08_Functions_II.md** – Parameters, return values, and anonymous functions.
 9. **09_Functions_III.md** – Closures, higher-order functions, and callbacks.
-10. **10_Functions_This.md** – Understanding `this` in different contexts.
+10. **10_Functions_Takeways.md** – Understanding functions in different contexts.
 11. **11_Arrays_I.md** – Introduction to arrays and common operations.
 12. **12_Arrays_II.md** – Advanced methods: `map()`, `filter()`, `reduce()`, etc.
 13. **13_Objects_I.md** – Working with objects, properties, and nested data.
