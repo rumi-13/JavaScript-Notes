@@ -65,6 +65,9 @@ Of course. Here are the notes on handling objects and arrays in Web Storage.
 
 A crucial aspect of `localStorage` and `sessionStorage` is that they can **only store data as strings**. If you try to store a complex data type like an object or an array directly, JavaScript will automatically convert it into a string, which often leads to data loss.
 
+# Why it stores Strings only?
+Because the developers of localStroage made it for storing strings only.
+
 ### The Problem: Storing Objects/Arrays Directly
 
 When you use `setItem()` with a non-string value, it calls the `toString()` method on it. For objects and arrays, this results in unhelpful strings like `"[object Object]"` or a simple comma-separated list.
