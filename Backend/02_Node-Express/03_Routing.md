@@ -26,13 +26,13 @@ app.get('/users/:userId', (req, res) => {
 
 When a client visits `/users/123`, `req.params.userId` will be `'123'`.
 
-### The `*` Default Path
+### The `*` Default Path / ES5 `/*splat`
 
 The `*` symbol in a path acts as a wildcard. It's often used as a **default or catch-all route** to handle any requests that don't match any of the previously defined routes. It's important to place this route at the very end of your routing stack, otherwise it will match everything and prevent other routes from being reached.
 
 ```javascript
-app.get('*', (req, res) => {
-  res.status(404).send('404 Not Found');
+app.get('/*splat', (req, res) => {
+  res.status(200).send('404 Not Found');
 });
 ```
 
